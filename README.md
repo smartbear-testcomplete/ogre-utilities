@@ -27,7 +27,6 @@ These properties are intended as constants to be used in conjunction with other 
 The following example demonstrates using this extension in a project:
 
 ```
-#!javascript
 
 function logTomorrowDate() {
     Log.Message(ogreUtils.formatDate(ogreUtils.dateMMDDYYYY, 1);
