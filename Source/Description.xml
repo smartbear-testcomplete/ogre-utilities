@@ -1,0 +1,23 @@
+<ScriptExtensionGroup Name="TristaanOgre Community Extensions">
+    <Category Name="TristaanOgre Community Extensions">
+        <ScriptExtension Name="Ogre Utilities" Author="Robert Martin" Version="1.0" HomePage="bitbucket.org/account/user/privateteamogre/projects/CSE">
+            <Script Name="utilityFunctions.js">
+                <RuntimeObject Name="ogreUtils">
+					<Property Name="dateDDMMYYYY" GetRoutine="getdateDDMMYYYY">Constant date format DD/MM/YYYY</Property>
+					<Property Name="dateDDMMYY" GetRoutine="getdateDDMMYY">Constant date format DD/MM/YY</Property>
+					<Property Name="dateMMDDYYYY" GetRoutine="getdateMMDDYYYY">Constant date format MM/DD/YYYY</Property>
+					<Property Name="dateMMDDYY" GetRoutine="getdateMMDDYY">Constant date format MM/DD/YYYY</Property>
+					<Property Name="dateDDMMMYYYY" GetRoutine="getdateDDMMMYYYY">Constant date format DD/JAN/YYYY</Property>
+					<Property Name="dateDDMMMYY" GetRoutine="getdateDDMMMYY">Constant date format DD/JAN/YY</Property>
+					<Property Name="dateMMMDDYYYY" GetRoutine="getdateMMMDDYYYY">Constant date format JAN/DD/YYYY</Property>
+					<Property Name="dateMMMDDYY" GetRoutine="getdateMMMDDYY">Constant date format JAN/DD/YY</Property>
+                    <Method Name="formatDate" Routine="formatDate">Returns a formated date string based upon a format type and a number of days to add or subtract</Method>
+                    <Method Name="getTCCommandLineParam" Routine="getCommandLineParameter">Returns the value of a parameter in the TestComplete/TestExecute commandline as a string</Method>
+                    <Method Name="getUniqueIDString" Routine="getUniqueID">Returns a string of numeric digits based upon date and time to generate a unique ID number</Method>
+                    <Description>Provides a set of utility functions for use within Keyword Tests for facilitying test automation</Description>
+                </RuntimeObject>
+            </Script>
+            <Description>An extension of general utility functions</Description>
+        </ScriptExtension>
+    </Category>
+</ScriptExtensionGroup>
